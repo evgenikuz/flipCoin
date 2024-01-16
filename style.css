@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+body {
+    background: linear-gradient(157deg, #FFF -19%, #FFEFBA 99.15%);
+    height: 100vh;
+}
+.game {
+    margin: 112px 78px;
+    height: 513px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.game__title {
+    font-weight: 700;
+    font-size: 72px;
+}
+.game__coins img {
+    height: 268px;
+    object-fit: contain;
+    object-position: center;
+    cursor: pointer;
+    border-radius: 50%;
+    margin-top: 67px;
+    margin-bottom: 67px;
+    position: relative;
+}
+.game__result {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+.result__flips {
+    font-weight: 700;
+}
+.result__heads {
+    font-weight: 700;
+}
+.result__tails {
+    font-weight: 700;
+}
+
+.d-none {
+    display: none;
+}
